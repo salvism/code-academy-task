@@ -1,0 +1,313 @@
+/* header start */
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+}
+.header-left span {
+  text-align: left;
+  color: #323232;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5em;
+}
+.header-middle-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-middle-network img {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 25px;
+}
+.search-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.header-right {
+  background-color: #f9dd00;
+  color: #323232;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 20px 40px;
+  line-height: 1;
+  margin-right: -20px;
+}
+/* header end */
+
+/* main start */
+
+/* main-info section start */
+#main-info {
+  padding: 0 50px;
+}
+.main-info {
+  background-image: url("https://code.edu.az/wp-content/uploads/2022/04/Programming_Web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+.main-info-top {
+  display: flex;
+}
+.logo {
+  width: 60%;
+}
+.main-info-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-info-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.main-info-nav ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+/* main-info section end */
+
+/* services-icon section start */
+.services-icon {
+  margin: 0;
+  padding: 7px 0 0;
+}
+.services-title {
+  font-size: 13px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 0;
+  padding: 20px 0px;
+  margin-top: 20px;
+  color: #4a4a4a;
+}
+.services {
+  display: flex;
+  padding: 100px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services-right-top .left:hover {
+  background: #872891;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 22px 33px 0px;
+}
+.services-right-top .right:hover {
+  background: #ffcd05;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 22px 33px 0px;
+}
+.services-right-bottom .left:hover {
+  background: #00b45a;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 22px 33px 0px;
+}
+.services-right-bottom .right:hover {
+  background: #2382c8;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 22px 33px 0px;
+}
+.services-left .first {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: lowercase;
+  line-height: 1px;
+  letter-spacing: -1.2px;
+  padding: 20px 0px;
+  color: #4a4a4a;
+}
+.services-left .second {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 0.1em;
+  letter-spacing: -0.1px;
+  padding: 20px 0px;
+  color: #4a4a4a;
+}
+.line {
+  margin: 30px 0px 30px 0px;
+}
+.services-left p {
+  margin: 0px 0px 15px 0px;
+  font-weight: 400;
+  color: #7a7a7a;
+  width: 80%;
+  max-width: 80%;
+  line-height: 1.5rem;
+}
+.services-right-top {
+  display: flex;
+}
+.services-right-bottom {
+  display: flex;
+}
+.card {
+  margin-left: -1px;
+  margin-top: -1px;
+  border: 1px solid #d3d3d5;
+  width: 100%;
+  min-height: 200px;
+  padding: 25px;
+}
+.services-left,
+.services-right {
+  width: 50%;
+}
+/* services-icon section end */
+
+/* content section start */
+.content {
+  display: flex;
+  padding-top: 100px;
+  margin-bottom: 45px;
+}
+.content-left,
+.content-right {
+  width: 50%;
+}
+.content-left .second {
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: lowercase;
+  letter-spacing: -1.5px;
+  line-height: 0.1em;
+  padding: 20px 0px;
+  color: #4a4a4a;
+}
+.content-left .first {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: lowercase;
+  line-height: 70px;
+  letter-spacing: -1.2px;
+  color: #4a4a4a;
+}
+.content-left p {
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #7a7a7a;
+}
+/* services-icon section end */
+
+/* about section start */
+.about {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 150px;
+  z-index: 999;
+}
+.about-top,
+.about-bottom {
+  display: flex;
+  gap: 30px;
+}
+.about-card {
+  display: flex;
+  width: 50%;
+  padding: 25px;
+  padding-left: 0px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.image {
+  margin-right: 50px;
+}
+.about-content a h3 {
+  color: #323232;
+  font-size: 21px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.33em;
+}
+.about-content p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.more {
+  font-size: 14px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.33em;
+  color: #323232;
+}
+/* about section end */
+
+/* results section start */
+.results {
+  position: relative;
+}
+.results-wrapper {
+  position: relative;
+  background-image: url("https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999;
+}
+.results-wrapper::before {
+  position: absolute;
+  content: "";
+  background-color: #000000;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.results-caption {
+  padding: 50px;
+  font-weight: 400;
+  text-align: center;
+  color: #f4f5f8;
+}
+.results-caption h2 {
+  padding-top: 50px;
+}
+.results-content {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+.results-content div {
+  width: 25%;
+  padding: 10px;
+}
+.results-content div .number {
+  color: #f4f5f8;
+  font-size: 70px;
+  font-weight: 800;
+  text-transform: lowercase;
+  line-height: 70px;
+  letter-spacing: -1.2px;
+  align-items: center;
+}
+.results-content div p {
+  color: #f4f5f8;
+  font-size: 37px;
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 1em;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+/* main end */
